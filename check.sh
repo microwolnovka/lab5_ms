@@ -4,6 +4,6 @@ echo 2 > /proc/b
 cat /proc/result
 
 echo - > /sys/kernel/calc/operation 
-echo 12 > /sys/kernel/calc/a
+echo 13 > /sys/kernel/calc/a
 echo 2 > /sys/kernel/calc/b
 cat /sys/kernel/calc/result
